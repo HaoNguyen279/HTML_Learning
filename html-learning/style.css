@@ -1,0 +1,37 @@
+p {
+  color: cyan;
+}
+h1 {
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 1;
+}
+h2 {
+  color: brown;
+  text-align: end;
+  opacity: 0;
+}
+h3 {
+  color: blueviolet;
+  font-style: italic;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  visibility: visible;
+  /* visibility: hidden; -> ẩn khỏi giao diện, vẫn chiếm, ko tương tác đc */
+}
+li {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 0cqmax;
+  display: block;
+  background-color: red;
+  /* display: none; -> ẩn hẳn khỏi giao diện và xóa bỏ luôn vùng chứa */
+}
+body {
+  background-color: aliceblue;
+  background-image: url(../img/Window11-tan.png);
+  opacity: 100%;
+}
