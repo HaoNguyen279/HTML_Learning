@@ -8,5 +8,45 @@ h1 {
   text-overflow: clip;
 }
 body {
-  background-color: #acfcff;
+  background-color: white;
+}
+.top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around 10px;
+  /* height: 100vh; set chiều cao = 100% màn hình */
+  background-color: #e1e0e0;
+  height: 50px;
+}
+.spacer {
+  width: 500px;
+}
+.item {
+  font-size: 16px;
+  text-align: center;
+  right: unset;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 0px 20px 0px 20px;
+  /* padding: 0px 0px 0px 0px; theo thứ tự trên, phải, dưới trái; */
+  /* margin-top: 25px;lùi phần tử  xuống dưới 25px */
+}
+.search {
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  size: 50px;
+}
+
+a {
+  color: #504f4f;
+
+  text-decoration: none;
+  transition: color 0.3s;
+}
+a:hover {
+  color: blue;
+}
+.LOQ {
+  background-color: transparent;
+  text-align: center;
 }
