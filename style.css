@@ -1,0 +1,292 @@
+/* h1 {
+  font-size: 70px;
+  background-color: aqua;
+  color: blueviolet;
+  font-family: "Segoe UI", cursive;
+  font-style: oblique;
+  text-align: center;
+  text-overflow: clip;
+} */
+body {
+  overflow-x: hidden;
+}
+.lenovo-logo {
+  cursor: pointer;
+}
+body {
+  background-color: rgba(246, 255, 225, 0.192);
+}
+.top-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around 10px;
+  /* height: 100vh; set chiều cao = 100% màn hình */
+  background-color: #e1e0e0;
+  height: 50px;
+}
+.top-container a {
+  font-size: 14px;
+  color: black;
+  text-decoration: unset;
+  font-weight: 700;
+}
+.search-box {
+  position: absolute;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid #000; */
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #f8f8f8;
+  width: 400px;
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  outline: none;
+  background-color: transparent;
+}
+
+.search-box input::placeholder {
+  color: #999;
+}
+
+.search-box button {
+  border: none;
+  background: none;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box button svg {
+  fill: #000;
+  width: 20px;
+  height: 20px;
+}
+.cart {
+  cursor: pointer;
+  margin: 0px 20px 0px 20px;
+}
+.laptop-name {
+  background-color: #e1e0e0;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+.laptop-name h1 {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.banner .banner-item {
+  width: calc(300);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.banner .banner-item img {
+  width: 100%;
+  object-fit: cover;
+  animation-name: slidebar;
+  animation-duration: 6s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes slidebar {
+  0% {
+    transform: translateX(0);
+  }
+  33.33% {
+    transform: translateX(-100%);
+  }
+  66.66% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  margin: 20px 0px 20px 0px;
+  text-align: center;
+  font-weight: bold;
+  background: linear-gradient(
+    to right,
+    #213a58,
+    #213a58,
+    #213a58,
+    #213a58,
+    #213a58,
+    #0c6478,
+    #15919b,
+    #09d1c7,
+    #46dfb1,
+    #80ee98,
+    #80ee98,
+    #46dfb1,
+    #09d1c7,
+    #15919b,
+    #0c6478,
+    #213a58,
+    #213a58,
+    #213a58,
+    #213a58,
+    #213a58
+  );
+  background-size: 300% 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 5s infinite;
+}
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+.information {
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+}
+.information h3 {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  text-transform: unset;
+  margin: 40px 0px 10px 0px;
+}
+.information a {
+  font-size: 17px;
+  margin: 0px 0px 10px 0px;
+  color: #504f4f;
+}
+
+.item {
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  right: unset;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 0px 20px 0px 20px;
+  /* padding: 0px 0px 0px 0px; theo thứ tự trên, phải, dưới trái; */
+  /* margin-top: 25px;lùi phần tử  xuống dưới 25px */
+}
+
+.bot-item a {
+  color: #504f4f;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #4c97ff;
+}
+.LOQ {
+  background-color: transparent;
+  text-align: center;
+}
+.asus {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.asus .lenovo-in-asus {
+  position: absolute;
+  margin-top: 640px;
+  margin-left: 10px;
+  left: 30px;
+}
+
+.bot-container {
+  display: flex;
+  background-color: #e1e0e0;
+}
+.bot-item-header {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+}
+.bot-item {
+  margin: 50px;
+}
+.bot-container .country {
+  margin: 50px;
+}
+
+.country select {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: #213a58;
+  border: 2px solid;
+}
+.country h6 {
+  font-size: 16px;
+  margin: unset;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  color: #696967;
+}
+li {
+  list-style: none;
+  font-size: 14px;
+  margin: 5px;
+  padding: 0px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.last-div {
+  background-color: #e1e0e0;
+  height: 100%;
+}
+.last-div h6 {
+  font-size: 16px;
+  text-align: center;
+  margin: unset;
+}
+.last-div .link {
+  text-align: center;
+}
+.last-div .link a {
+  color: #696967;
+}
+.last {
+  text-align: center;
+  margin-top: 20px;
+  transition: unset;
+}
+
+/* <!-- /////////////////////////////////////////////////////////          testing new knowledge         /////////////////////////////////////////////////////////////////////////////////////// --> */
+.sample-box-header h3 {
+  text-align: center;
+  text-transform: unset;
+  color: #0c6478;
+  text-shadow: #000;
+  font-size: 40px;
+}
+
+.box {
+  height: 500px;
+  margin: 30px 300px 30px 300px;
+  overflow: scroll;
+}
